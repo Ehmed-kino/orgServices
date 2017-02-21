@@ -6,7 +6,7 @@ class Areas extends Component {
     const areas = this.props.areas;
     console.log(areas);
     return (
-      <div>
+      <div className="all-buttons">
         {areas.map((val) => {
           return (
             <div className="buttons">
